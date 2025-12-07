@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Valley Nursery - Home</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="custom.html">Custom</a>
+                    </li>
+                    <li class="nav-item pe-md-5">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                </ul> 
+            </div>
+        </nav>
+        <div class="container first-view">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 offset-md-1 brandLogoBackground">
+                    <img src="./img/logo.png" id="brand-logo" alt="Bloom Valley Nursery brand logo">
+                </div>
+                <div class="col-md-6">
+                    <h1 id="catch-phrase">Bloom Valley Nursery</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Content Section -->
+        <h2 class="mx-5">A place that supports "a life with plants" in your community</h2>
+        <section class="mt-5 promotion">
+            <h3>Promotion</h3>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4 mb-1">
+                        <img src="./img/AppleTree.png" alt="Apple tree">
+                    </div>
+                    <div class="col-md-4 mb-1">
+                        <img src="./img/AloePlant.png" alt="Aloe vera plant">
+                    </div>
+                    <div class="col-md-4 mb-1">
+                        <img src="./img/BirdHouse.png" alt="Birdhouse">
+                    </div>
+                </div> 
+                <!-- .row -->
+            </div> <!-- .container -->
+        </section>
+        <section class="mt-5 shopping-peaks">
+            <h3>Shopping Peaks</h3>
+            <p><strong>Explore Nature, Locally</strong></p>
+            <p>Discover vibrant plants, trees, and gardening supplies grown with care and sustainability in mind.</p>
+            <p><strong>Personal Touch</strong></p>
+            <p>Our friendly staff is here to help you find the perfect plants for your home and garden.</p>
+            <p><strong>Grow with Us</strong></p>
+            <p>Experience the joy of gardening and bring a touch of Bloom Valley beauty to your space.</p>
+        </section>
+        <section class="mt-5">
+            <h3>Categories of Products</h3>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <button type="button" class="btn mx-auto d-block button-category" onclick="location.href='gallery.html'">Trees</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn mx-auto d-block button-category" onclick="location.href='gallery.html'">Plants</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn mx-auto d-block button-category" onclick="location.href='gallery.html'">Goods</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <h3>Newsletter</h3>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 order-1 order-md-1">
+                        <p><input type="email" name="email" placeholder="Enter your email"></p>
+                    </div>
+                    <div class="col-12 col-md-6 order-2 order-md-3">
+                        <button type="button" class="btn mx-auto d-block" onclick="subscribe()">Subscribe</button>
+                    </div>
+                    <div class="col-12 col-md-6 order-3 order-md-2">
+                        <ul class="sns px-1">
+                            <li><a href="https://twitter.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_tw.svg" alt="Twitter"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_fb.png" alt="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_ig.svg" alt="Instagram"></a></li>
+                            <li><a href="https://www.whatsapp.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_wa.svg" alt="WhatsApp"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 footer-nav order-4 order-md-4">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3"><a class="nav-link" href="home.html">Home</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="custom.html">Custom</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

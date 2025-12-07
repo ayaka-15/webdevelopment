@@ -1,0 +1,23 @@
+/* about us */
+.testimonial{
+    background-color: #4B4A1E;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.customer-name{
+    padding-top: 25px;
+}
+
+.testimonial > p{
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+/* for laptop */
+@media (min-width: 768px) {
+    .events-collaborations > p{
+        text-align: center;
+    }
+}

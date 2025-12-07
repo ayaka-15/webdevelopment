@@ -1,0 +1,15 @@
+/* gallery */
+.gallery img{
+  width: 100%;
+  height: auto;
+  display: block;   
+}
+
+.product-title{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.gallery p{
+    margin-top: 20px;   
+}

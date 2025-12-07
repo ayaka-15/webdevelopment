@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Valley Nursery - About Us</title>
+    
+    <!-- Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/aboutus.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end header-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="custom.html">Custom</a>
+                    </li>
+                    <li class="nav-item active pe-md-5">
+                        <a class="nav-link" href="aboutus.html">About Us<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul> 
+            </div>
+        </nav>
+        <div class="container first-view">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 offset-md-1">
+                    <img src="./img/logo.png" id="brand-logo" alt="Bloom Valley Nursery brand logo">
+                </div>
+                <div class="col-md-6">
+                    <h1 id="catch-phrase">Bloom Valley Nursery</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Content Section -->
+        <h2>About Us</h2>
+        <section class="mt-5">
+            <h3>Customer Testimonials</h3>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 testimonial mb-1">
+                        <div class="customer-name">Sarah M.</div>
+                        <p>"I always find healthy, beautiful plants here, and the staff is incredibly helpful. Their thoughtful advice has truly helped my garden thrive."</p>
+                    </div>
+                    <div class="col-md-3 testimonial mb-1">
+                        <div class="customer-name">Daniel K.</div>
+                        <p>"The nursery has a warm, local feel, and I love their focus on sustainability. I’m always inspired to try something new in my yard."</p>
+                    </div>
+                    <div class="col-md-3 testimonial mb-1">
+                        <div class="customer-name">Emily R.</div>
+                        <p>"Their selection is fantastic, and the team truly cares about the community. It’s my favorite place to shop for gardening supplies."</p>
+                    </div>
+                </div> 
+                <!-- .row -->
+            </div> <!-- .container -->
+        </section>
+        <section class="mt-5">
+            <h3>Community Involvements</h3>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <img src="./img/MapleTree.png" alt="Maple tree">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Bloom Valley Nursery is committed to supporting our local community through partnerships with schools, gardening clubs, and neighborhood groups.</p>
+                        <p>We participate in community garden projects, host small workshops, and provide resources that promote environmental awareness and a shared love of gardening.</p>
+                    </div>
+                </div> 
+                <!-- .row -->
+            </div> <!-- .container -->
+        </section>
+        <section class="mt-5 events-collaborations">
+            <h3>Events and Collaborations</h3>
+            <p>Bloom Valley Nursery regularly hosts seasonal events, gardening workshops, and collaborative projects with local artisans and community groups.</p>
+            <p>These activities allow us to share our passion for plants, support local talent, and create meaningful connections within the community.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <h3>Newsletter</h3>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 order-1 order-md-1">
+                        <p><input type="email" name="email" placeholder="Enter your email"></p>
+                    </div>
+                    <div class="col-12 col-md-6 order-2 order-md-3">
+                        <button type="button" class="btn mx-auto d-block" onclick="subscribe()">Subscribe</button>
+                    </div>
+                    <div class="col-12 col-md-6 order-3 order-md-2">
+                        <ul class="sns px-1">
+                            <li><a href="https://twitter.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_tw.svg" alt="Twitter"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_fb.png" alt="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_ig.svg" alt="Instagram"></a></li>
+                            <li><a href="https://www.whatsapp.com/" target="_blank"><img class="btn-sns" src="./img/btn_sns_wa.svg" alt="WhatsApp"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 footer-nav order-4 order-md-4">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3"><a class="nav-link" href="home.html">Home</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="custom.html">Custom</a></li>
+                            <li class="nav-item px-3"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

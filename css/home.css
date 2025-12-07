@@ -1,0 +1,22 @@
+/* home */
+.promotion img{
+  width: 100%;
+  height: auto;
+  display: block;   
+}
+
+.button-category{
+    width: 50vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* for laptop */
+@media (min-width: 768px) {
+    .button-category{
+        width: 25vw;
+    }
+    .shopping-peaks > p{
+        text-align: center;
+    }
+}
