@@ -80,14 +80,15 @@
                             <!-- Name -->
                             <div class="mt-4">
                                 <label for="Name" class="form-label">Name :</label>
-                                <input type="text" class="form-control" id="name" placeholder="" required="">
+                                <input type="text" class="form-control" id="name" placeholder="">
+                                <div id="nameError" class="text-danger"></div>
                             </div>
                         </div>
                         <!-- Email -->
                         <div class="row">
                             <div class="mt-4">
                                 <label for="email" class="form-label">Email :</label>
-                                <input type="text" class="form-control" id="email" placeholder="" required="">
+                                <input type="text" class="form-control" id="email" placeholder="">
                                 <div id="emailError" class="text-danger"></div>
                             </div>
                         </div>
@@ -95,7 +96,7 @@
                         <div class="row">
                             <div class="mt-4">
                                 <label for="phoneNumber" class="form-label">Phone Number :</label>
-                                <input type="text" class="form-control" id="phone-number" placeholder="" required="">
+                                <input type="text" class="form-control" id="phone-number" placeholder="">
                                 <div id="phoneNumberError" class="text-danger"></div>
                             </div>
                         </div>
@@ -103,7 +104,7 @@
                         <div class="row">
                             <div class="mt-4">
                                 <label for="feedback" class="form-label">Feedback / Order Information :</label>
-                                <textarea rows="5" cols="30" class="form-control" id="feedback" placeholder="" required=""></textarea>
+                                <textarea rows="5" cols="30" class="form-control" id="feedback" placeholder=""></textarea>
                                 <div id="feedbackError" class="text-danger"></div>
                             </div>
                         </div>
@@ -123,7 +124,7 @@
             <div class="container">
                 <div class="row g-3">
                     <div class="col-12 col-md-6 order-1 order-md-1">
-                        <p><input type="email" name="email" placeholder="Enter your email"></p>
+                        <p><input type="email" id="email" name="email" placeholder="Enter your email"></p>
                     </div>
                     <div class="col-12 col-md-6 order-2 order-md-3">
                         <button type="button" class="btn mx-auto d-block" onclick="subscribe()">Subscribe</button>
@@ -149,5 +150,7 @@
         </div>
     </footer>        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>
